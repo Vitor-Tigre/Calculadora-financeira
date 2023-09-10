@@ -1,0 +1,46 @@
+body {
+    background-image: linear-gradient(to left, rgb(67, 67, 214), rgb(13, 10, 150), rgb(0, 0, 0));
+    background-size: 400% 400%;
+    animation: animacao 40s ease infinite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+@keyframes animacao {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+#header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+}
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+    align-items: center;
+    width: 77%;
+    height: fit-content;
+    background-color: white;
+    border: solid;
+    border-color: black;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+button {
+    background-color: rgb(168, 177, 196);
+    width: 100px;
+    height: 35px;
+    border: solid;
+    border-color: black;
+    border-radius: 15px;
+}
+#resultados {
+    padding: 2%;
+}
+p {
+    font-size: larger;
+}
